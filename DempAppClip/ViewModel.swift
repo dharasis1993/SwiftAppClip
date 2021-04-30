@@ -9,9 +9,10 @@ import Foundation
  
 class EntityViewModel: ObservableObject{
     @Published var entity: [Entity]  = []
+    @Published var index: Int = 0
     
     init() {
-        entity = load("landmarkData.json")
+        entity = load("EntityData.json")
     }
     
     func load<T: Decodable>(_ filename: String) -> T {

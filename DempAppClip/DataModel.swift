@@ -8,11 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct Entity: Decodable {
-    var entity: [EntityItem]
-}
-
-struct EntityItem: Decodable, Identifiable {
+struct Entity: Decodable, Identifiable {
     var name: String
     var id: Int
     var description: String

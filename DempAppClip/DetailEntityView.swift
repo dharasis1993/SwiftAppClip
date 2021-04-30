@@ -10,6 +10,10 @@ import SwiftUI
 struct DetailEntityView: View {
     @Environment(\.presentationMode) var presentationMode
     @ObservedObject var modelView: EntityViewModel
+    @State private var buttonDisabled = false
+    @State private var buttonText = "BUY"
+
+
     var index: Int
     var entity: Entity {
         modelView.entity[index]
@@ -25,7 +29,8 @@ struct DetailEntityView: View {
 
             VStack(alignment: .leading) {
                 VStack(alignment:.leading){
-                                  Text(entity.name)
+//                                  Text(entity.name)
+                    TextField("", text: $modelView.entity[index].name)
                                       .font(.title)
                                       .foregroundColor(.primary)
                     Text(entity.category)
@@ -42,14 +47,17 @@ struct DetailEntityView: View {
                 Text(entity.description)
                 Button {
                     modelView.entity[index].quantity -= 1
-                    self.presentationMode.wrappedValue.dismiss() 
+                    buttonDisabled  =  true
+                    buttonText = "PURCHASED"
                 } label: {
-                    Text("BUY")
-                        .padding(20)
+                    Text(buttonText)
+                        .padding()
                 }
+                .disabled(buttonDisabled == true)
                 .frame(minWidth: 0, maxWidth: .infinity)
                 .foregroundColor(.white)
-                .background(Color.blue)
+                .background(buttonDisabled ?  Color(#colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1)) :   Color.blue)
+
 
             }
             .padding()

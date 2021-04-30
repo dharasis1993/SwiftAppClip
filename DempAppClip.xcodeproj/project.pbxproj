@@ -9,14 +9,52 @@
 /* Begin PBXBuildFile section */
 		53140D6126398DCB007D8C22 /* DempAppClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53140D6026398DCB007D8C22 /* DempAppClipApp.swift */; };
 		53140D6326398DCB007D8C22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53140D6226398DCB007D8C22 /* ContentView.swift */; };
-		53140D6526398DCE007D8C22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53140D6426398DCE007D8C22 /* Assets.xcassets */; };
 		53140D6826398DCE007D8C22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53140D6726398DCE007D8C22 /* Preview Assets.xcassets */; };
 		53140D712639960B007D8C22 /* EntityData.json in Resources */ = {isa = PBXBuildFile; fileRef = 53140D702639960B007D8C22 /* EntityData.json */; };
 		53140D742639974F007D8C22 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53140D732639974F007D8C22 /* DataModel.swift */; };
 		53140D78263998B9007D8C22 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53140D77263998B9007D8C22 /* ViewModel.swift */; };
 		5369CB96263A770700D40A3D /* EntityRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5369CB95263A770700D40A3D /* EntityRow.swift */; };
 		5369CB9B263A81E800D40A3D /* DetailEntityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5369CB9A263A81E800D40A3D /* DetailEntityView.swift */; };
+		53E29FE1263BC8B1004EDEB1 /* DemoClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E29FE0263BC8B1004EDEB1 /* DemoClipApp.swift */; };
+		53E29FE3263BC8B1004EDEB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E29FE2263BC8B1004EDEB1 /* ContentView.swift */; };
+		53E29FE5263BC8B2004EDEB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E29FE4263BC8B2004EDEB1 /* Assets.xcassets */; };
+		53E29FE8263BC8B2004EDEB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E29FE7263BC8B2004EDEB1 /* Preview Assets.xcassets */; };
+		53E29FED263BC8B2004EDEB1 /* DemoClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 53E29FDE263BC8B1004EDEB1 /* DemoClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		53E29FF4263BC95E004EDEB1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53140D77263998B9007D8C22 /* ViewModel.swift */; };
+		53E29FF7263BC963004EDEB1 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53140D732639974F007D8C22 /* DataModel.swift */; };
+		53E29FFD263BC98F004EDEB1 /* DetailEntityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5369CB9A263A81E800D40A3D /* DetailEntityView.swift */; };
+		53E2A003263BC996004EDEB1 /* EntityRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5369CB95263A770700D40A3D /* EntityRow.swift */; };
+		53E2A006263BC99A004EDEB1 /* EntityData.json in Resources */ = {isa = PBXBuildFile; fileRef = 53140D702639960B007D8C22 /* EntityData.json */; };
+		53E2A00B263BC9EE004EDEB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53140D6726398DCE007D8C22 /* Preview Assets.xcassets */; };
+		53E2A027263BD11E004EDEB1 /* StoreMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E2A026263BD11E004EDEB1 /* StoreMainView.swift */; };
+		53E2A028263BD11E004EDEB1 /* StoreMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E2A026263BD11E004EDEB1 /* StoreMainView.swift */; };
+		53E2A02D263BD1A9004EDEB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53140D6426398DCE007D8C22 /* Assets.xcassets */; };
+		53E2A043263C1103004EDEB1 /* ClipModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E2A042263C1103004EDEB1 /* ClipModel.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53E29FEB263BC8B2004EDEB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53140D5526398DCB007D8C22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53E29FDD263BC8B1004EDEB1;
+			remoteInfo = DemoClip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		53E29FEE263BC8B2004EDEB1 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				53E29FED263BC8B2004EDEB1 /* DemoClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		53140D5D26398DCB007D8C22 /* DempAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DempAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,10 +68,26 @@
 		53140D77263998B9007D8C22 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		5369CB95263A770700D40A3D /* EntityRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityRow.swift; sourceTree = "<group>"; };
 		5369CB9A263A81E800D40A3D /* DetailEntityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEntityView.swift; sourceTree = "<group>"; };
+		53E29FDE263BC8B1004EDEB1 /* DemoClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53E29FE0263BC8B1004EDEB1 /* DemoClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoClipApp.swift; sourceTree = "<group>"; };
+		53E29FE2263BC8B1004EDEB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		53E29FE4263BC8B2004EDEB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53E29FE7263BC8B2004EDEB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		53E29FE9263BC8B2004EDEB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53E29FEA263BC8B2004EDEB1 /* DemoClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DemoClip.entitlements; sourceTree = "<group>"; };
+		53E2A026263BD11E004EDEB1 /* StoreMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreMainView.swift; sourceTree = "<group>"; };
+		53E2A042263C1103004EDEB1 /* ClipModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		53140D5A26398DCB007D8C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53E29FDB263BC8B1004EDEB1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				53140D5F26398DCB007D8C22 /* DempAppClip */,
+				53E29FDF263BC8B1004EDEB1 /* DemoClip */,
 				53140D5E26398DCB007D8C22 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				53140D5D26398DCB007D8C22 /* DempAppClip.app */,
+				53E29FDE263BC8B1004EDEB1 /* DemoClip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +122,7 @@
 				53140D732639974F007D8C22 /* DataModel.swift */,
 				53140D6026398DCB007D8C22 /* DempAppClipApp.swift */,
 				53140D6226398DCB007D8C22 /* ContentView.swift */,
+				53E2A026263BD11E004EDEB1 /* StoreMainView.swift */,
 				5369CB9A263A81E800D40A3D /* DetailEntityView.swift */,
 				53140D6426398DCE007D8C22 /* Assets.xcassets */,
 				5369CB95263A770700D40A3D /* EntityRow.swift */,
@@ -84,6 +141,28 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		53E29FDF263BC8B1004EDEB1 /* DemoClip */ = {
+			isa = PBXGroup;
+			children = (
+				53E2A042263C1103004EDEB1 /* ClipModel.swift */,
+				53E29FE0263BC8B1004EDEB1 /* DemoClipApp.swift */,
+				53E29FE2263BC8B1004EDEB1 /* ContentView.swift */,
+				53E29FE4263BC8B2004EDEB1 /* Assets.xcassets */,
+				53E29FE9263BC8B2004EDEB1 /* Info.plist */,
+				53E29FEA263BC8B2004EDEB1 /* DemoClip.entitlements */,
+				53E29FE6263BC8B2004EDEB1 /* Preview Content */,
+			);
+			path = DemoClip;
+			sourceTree = "<group>";
+		};
+		53E29FE6263BC8B2004EDEB1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				53E29FE7263BC8B2004EDEB1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -94,15 +173,34 @@
 				53140D5926398DCB007D8C22 /* Sources */,
 				53140D5A26398DCB007D8C22 /* Frameworks */,
 				53140D5B26398DCB007D8C22 /* Resources */,
+				53E29FEE263BC8B2004EDEB1 /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				53E29FEC263BC8B2004EDEB1 /* PBXTargetDependency */,
 			);
 			name = DempAppClip;
 			productName = DempAppClip;
 			productReference = 53140D5D26398DCB007D8C22 /* DempAppClip.app */;
 			productType = "com.apple.product-type.application";
+		};
+		53E29FDD263BC8B1004EDEB1 /* DemoClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53E29FF1263BC8B2004EDEB1 /* Build configuration list for PBXNativeTarget "DemoClip" */;
+			buildPhases = (
+				53E29FDA263BC8B1004EDEB1 /* Sources */,
+				53E29FDB263BC8B1004EDEB1 /* Frameworks */,
+				53E29FDC263BC8B1004EDEB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoClip;
+			productName = DemoClip;
+			productReference = 53E29FDE263BC8B1004EDEB1 /* DemoClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
 		};
 /* End PBXNativeTarget section */
 
@@ -114,6 +212,9 @@
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					53140D5C26398DCB007D8C22 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					53E29FDD263BC8B1004EDEB1 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
@@ -132,6 +233,7 @@
 			projectRoot = "";
 			targets = (
 				53140D5C26398DCB007D8C22 /* DempAppClip */,
+				53E29FDD263BC8B1004EDEB1 /* DemoClip */,
 			);
 		};
 /* End PBXProject section */
@@ -142,8 +244,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				53140D6826398DCE007D8C22 /* Preview Assets.xcassets in Resources */,
-				53140D6526398DCE007D8C22 /* Assets.xcassets in Resources */,
+				53E2A02D263BD1A9004EDEB1 /* Assets.xcassets in Resources */,
 				53140D712639960B007D8C22 /* EntityData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53E29FDC263BC8B1004EDEB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E29FE8263BC8B2004EDEB1 /* Preview Assets.xcassets in Resources */,
+				53E2A00B263BC9EE004EDEB1 /* Preview Assets.xcassets in Resources */,
+				53E2A006263BC99A004EDEB1 /* EntityData.json in Resources */,
+				53E29FE5263BC8B2004EDEB1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,12 +271,36 @@
 				53140D6126398DCB007D8C22 /* DempAppClipApp.swift in Sources */,
 				5369CB9B263A81E800D40A3D /* DetailEntityView.swift in Sources */,
 				53140D78263998B9007D8C22 /* ViewModel.swift in Sources */,
+				53E2A027263BD11E004EDEB1 /* StoreMainView.swift in Sources */,
 				5369CB96263A770700D40A3D /* EntityRow.swift in Sources */,
 				53140D742639974F007D8C22 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		53E29FDA263BC8B1004EDEB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E29FE3263BC8B1004EDEB1 /* ContentView.swift in Sources */,
+				53E29FFD263BC98F004EDEB1 /* DetailEntityView.swift in Sources */,
+				53E29FF7263BC963004EDEB1 /* DataModel.swift in Sources */,
+				53E2A043263C1103004EDEB1 /* ClipModel.swift in Sources */,
+				53E29FF4263BC95E004EDEB1 /* ViewModel.swift in Sources */,
+				53E2A028263BD11E004EDEB1 /* StoreMainView.swift in Sources */,
+				53E29FE1263BC8B1004EDEB1 /* DemoClipApp.swift in Sources */,
+				53E2A003263BC996004EDEB1 /* EntityRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53E29FEC263BC8B2004EDEB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53E29FDD263BC8B1004EDEB1 /* DemoClip */;
+			targetProxy = 53E29FEB263BC8B2004EDEB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		53140D6A26398DCE007D8C22 /* Debug */ = {
@@ -285,6 +422,7 @@
 		53140D6D26398DCE007D8C22 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -307,6 +445,7 @@
 		53140D6E26398DCE007D8C22 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -320,6 +459,52 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Dharasis.DempAppClip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		53E29FEF263BC8B2004EDEB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DemoClip/DemoClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "DempAppClip/Assets.xcassets DemoClip/Preview\\ Content";
+				DEVELOPMENT_TEAM = Q626T374P5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DemoClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dharasis.DempAppClip.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53E29FF0263BC8B2004EDEB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DemoClip/DemoClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "DempAppClip/Assets.xcassets DemoClip/Preview\\ Content";
+				DEVELOPMENT_TEAM = Q626T374P5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DemoClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dharasis.DempAppClip.Clip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -343,6 +528,15 @@
 			buildConfigurations = (
 				53140D6D26398DCE007D8C22 /* Debug */,
 				53140D6E26398DCE007D8C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53E29FF1263BC8B2004EDEB1 /* Build configuration list for PBXNativeTarget "DemoClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E29FEF263BC8B2004EDEB1 /* Debug */,
+				53E29FF0263BC8B2004EDEB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
